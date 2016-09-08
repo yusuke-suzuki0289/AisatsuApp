@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         TextView textView = (TextView) findViewById(R.id.textView);
                         //2:00 ~ 9:59 では「おはよう」
                         if (hourOfDay >= 2 && hourOfDay < 10) {
-                            textView.setText("おはよう")
+                            textView.setText("おはよう");
                         //10:00 ~ 17:59 では「こんにちは」
                         } else if (hourOfDay >= 10 && hourOfDay < 18) {
                             textView.setText("こんにちは");
